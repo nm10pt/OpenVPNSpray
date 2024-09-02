@@ -38,8 +38,7 @@ LOGO = f"""
                                         {Fore.LIGHTCYAN_EX}   %%%%%%%%%%                          
 
                             {Fore.LIGHTGREEN_EX}               @nm10pt
-                            {Fore.LIGHTBLACK_EX} OpenVPN Access Server Password Spray 
-
+                            {Fore.LIGHTBLACK_EX} OpenVPN Access Server Password Spray
                             {Style.RESET_ALL}               
 """
 def remove_color_codes(text):
@@ -104,4 +103,4 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    main(args.host, args.port, args.users, args.password, args.logfile)
+    main(args.target, args.target_port, args.users_file, args.password, args.outfile)
