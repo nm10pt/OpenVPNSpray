@@ -1,0 +1,4 @@
+requests==2.31.0
+enlighten==1.12.4
+colorama==0.4.6
+urllib3==2.0.4
