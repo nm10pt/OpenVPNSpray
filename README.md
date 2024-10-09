@@ -46,7 +46,7 @@ A simple utility for password spray against OpenVPN access server.
 Run the script with the following command:
 
 ```sh
-python openvpn_spray.py -t <host> [--target-port <port>] -u <users_file> -p <password> [-p <output_file>]
+python openvpn_spray.py -t <host> [--target-port <port>] -u <users_file> -p <password> [-o <output_file>]
 ```
 
 ### Arguments
